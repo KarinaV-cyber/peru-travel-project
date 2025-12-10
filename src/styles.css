@@ -52,14 +52,37 @@ header a{
 } 
 
 .container{
-max-width: 1300px;
+max-width: 1400px;
 margin: 0 auto;
 }
 section{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px ;
 }
+section.secondary{
+    background-color:#f9f1f1;}
+
+    .card{
+        background-color: rgb(255, 255, 244);
+        margin: 30px 0; 
+    }
+.card-body{
+padding: 30px;
+
+}
+.card-header{
+
+}
+.card-footer{
+    padding:  30px 20px;
+}
+
+.text-center{ 
+text-align:center ;
+
+}
+
 .grid{
     display: grid;
       grid-gap: 64px;
@@ -71,12 +94,46 @@ section{
 .grid-3-columns-with-first-narrow{
 grid-template-columns: 1fr 2fr 2fr;
 }
+
+.grid-3-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .img-responsive{
     max-width: 100%;
-    border-radius: 4px;
+    border-radius: 6px;
     height: auto;
 
 }
+
+.img-responsive-2{
+    max-width: 50%;
+    border-radius: 6px;
+    display: block;
+}
+.img-responsive-3{
+max-width: 60%;
+border-radius: 6px;
+    display: block;
+}
+
+
+.btn{
+    display: block;
+    font-size: 14px;
+    line-height: 1.5;
+font-weight: 700;
+letter-spacing: 3px;
+color:white ;
+text-align: center ;
+text-decoration: none;
+padding: 16px;
+text-transform: uppercase;
+background-color: #005689;
+}
+
+
+
+
 main{
     background-color: azure;
 }
@@ -87,7 +144,7 @@ main h2{
     letter-spacing: 5px;
     margin: 0;
     color: #272044;
-    opacity: 0.3;
+    opacity: 0.2;
     text-transform: uppercase;
 
 }
@@ -99,6 +156,23 @@ main h3{
     color: #272044;
 
 }
+
+main h4{
+font-weight: 700;
+font-size: 24px;
+line-height: 1;
+color: #272044;
+margin: 0;
+}
+
+main h5{
+font-weight: 700;
+    font-size: 13px;
+    line-height: 1;
+    margin: 0;
+    color: #272044;
+}
+
 main p{
     font-style: normal;
     font-weight: 400;
@@ -136,6 +210,10 @@ footer a{
     color: azure;
    opacity: 0.6;
 }
+
+
+
+
 @media(max-width:960px){
 header{
     padding: 60px 0; 
