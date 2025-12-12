@@ -71,8 +71,13 @@ section.secondary{
 padding: 30px;
 
 }
-.card-header{
+.card-header.grid{
+grid-gap: 0;
+}
 
+.embed{
+width: 100%;
+aspect-ratio: 1/1;
 }
 .card-footer{
     padding:  30px 20px;
@@ -98,23 +103,13 @@ grid-template-columns: 1fr 2fr 2fr;
 .grid-3-columns{
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .img-responsive{
-    max-width: 100%;
+max-width: 100%;
     border-radius: 6px;
-    height: auto;
-
 }
 
-.img-responsive-2{
-    max-width: 50%;
-    border-radius: 6px;
-    display: block;
-}
-.img-responsive-3{
-max-width: 60%;
-border-radius: 6px;
-    display: block;
-}
+
 
 
 .btn{
@@ -229,6 +224,7 @@ header h3{
 }
 .grid{
     grid-template-columns: 1fr;
+    grid-gap: 32px;
 }
 section{
     padding: 30px;
@@ -236,5 +232,13 @@ section{
 img{
     display: none;
 }
+.card-header img{
+    display: none;
+}
+.embed{
+    aspect-ratio: 16/9;
+
+}
+
 }
 
