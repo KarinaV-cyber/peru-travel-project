@@ -108,7 +108,16 @@ grid-template-columns: 1fr 2fr 2fr;
 max-width: 100%;
     border-radius: 6px;
 }
+.img-responsive-1 {
+    max-width: 100%;
+    border-radius: 6px;
+}
 
+.photos-peru{
+   padding-top: 25px;
+display: block;
+ 
+}
 
 
 
@@ -229,7 +238,7 @@ header h3{
 section{
     padding: 30px;
 }
-img{
+.img-responsive{
     display: none;
 }
 .card-header img{
@@ -239,6 +248,7 @@ img{
     aspect-ratio: 16/9;
 
 }
+
 
 }
 
